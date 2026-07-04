@@ -2,7 +2,6 @@ import requests
 from faker import Faker
 
 fake = Faker()
-# Переключаемся на альтернативное стабильное тренировочное API (JSONPlaceholder)
 BASE_URL = "https://jsonplaceholder.typicode.com"
 
 def test_get_users_list():
